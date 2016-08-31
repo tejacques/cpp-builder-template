@@ -27,3 +27,19 @@
 *.exe
 *.out
 *.app
+
+# Build dirs
+build/
+Debug/
+Release/
+ipch/
+x64
+x86
+
+# VS
+.vs
+*.VC.db
+*.opendb
+
+# IntelliJ
+.idea
