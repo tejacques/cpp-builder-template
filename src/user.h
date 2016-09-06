@@ -2,6 +2,7 @@
 #include <string>
 
 enum UserFlags {
+	NONE = 0x0,
 	BASICS = 0x1,
 	LOCATION = 0x2
 };

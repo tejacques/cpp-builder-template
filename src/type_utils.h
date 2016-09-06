@@ -50,7 +50,8 @@ struct ContainsAllTypes<TypeList<TElement, TElements...>, TypeList<TTail...>>
 		&& (ContainsAllTypes<TypeList<TElements...>, TypeList<TTail...> >::value);
 };
 
-template<typename T, typename TList> struct AddType;
+template<typename T, typename TList>
+struct AddType;
 
 template<typename R, typename ...TArgs> struct RemoveType;
 
